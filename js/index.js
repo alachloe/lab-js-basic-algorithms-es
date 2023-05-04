@@ -10,7 +10,7 @@ console.log ("El nombre del navegante es Enora");
 //: iteracion 2 : condicionales
 
 if (hackers1.length > hackers2.length) {
-    console.log ("El conductor tiene el nombre más largo,tiene ${hacker1.length} caracteres.");
+    console.log ('El conductor tiene el nombre más largo,tiene ${hackers1.length} caracteres.');
 }
   else if (hackers1.length < hackers2.length) {
     console.log ('Parece que el navegante tiene el nombre más largo, tiene ${hackers2.length} characters');
@@ -22,13 +22,13 @@ if (hackers1.length > hackers2.length) {
   //: Iteracion 3 : loops
 
   let nombredelconductor = "C H L O E";
-  for (let i = 0; i >hackers1.length; i++) {
-    nombredelconductor += hackers1.lenght[i].toUpperCase() + "C H L O E ";
+  for (let i = 0; i < hackers1.length; i++) {
+    nombredelconductor += hackers1[i].toUpperCase() + "C H L O E ";
 }
 console.log (nombredelconductor.trim());
 
    let nombredelnavegador = "E N O R A";
-   for (let i = hackers2.length -1; i >=0; i--)
+   for (let i = hackers2.length -1; i >= 0; i--)
    {
     nombredelnavegador += hackers2[i];
   }
@@ -37,7 +37,7 @@ console.log (nombredelconductor.trim());
   if (hackers1 > hackers2) {
     console.log("El nombre del conductor va primero.")
   }
-  else if (hacker1 > hacker2) {
+  else if (hackers1 > hackers2) {
     console.log("Yo, el navegador va primero definitivamente.")
   }
   else {
